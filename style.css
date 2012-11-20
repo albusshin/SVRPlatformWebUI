@@ -201,6 +201,7 @@ div.comment{
 	padding-bottom:30px;
 	font-family:"微软雅黑", "黑体", "新宋体", "宋体";
 }
+/* css style used in the solution page */
 table.solution{
 	margin:auto;
 	width:700px;
@@ -307,6 +308,69 @@ a.commentsfooternow{
 	border-bottom:none;
 	font-family:"微软雅黑", "黑体", "新宋体", "宋体";
 }
+div.commentssubmit{
+	margin:auto;
+	width:700px;
+	padding-top:30px;
+	border-bottom:thin;
+	border-bottom-color:#ccc;
+	border-bottom-style:inset;
+	padding-bottom:30px;
+	font-family:"微软雅黑", "黑体", "新宋体", "宋体";
+}
+form#commentssubmitform{
+	padding-top:30px;
+	margin:auto;
+	outline:none;
+}
+input#submitbutton{
+	width:160px;
+}
+table.commentssubmittable{
+	margin: auto;
+	font-size:22px;
+	line-height: 2.0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+td.commentssubmitkey{
+	padding-top:10px;
+	text-shadow: grey 1px 1px 1px;
+	text-align:left;
+	padding-right:30px;
+	vertical-align:top;
+}
+td.commentssubmitvalue{
+	padding-top:10px;
+}
+textarea#commentssubmittitle{
+	font-family:"微软雅黑", "黑体", "新宋体", "宋体";
+	width:600px;
+	height:40px;;
+	font-size:20px;
+	line-height: 2.0;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 11px;
+	border-color:#ccc;
+	padding:5px;
+	line-height: 1.6;
+}
+textarea#commentssubmittext{
+	font-family:"微软雅黑", "黑体", "新宋体", "宋体";
+	width:600px;
+	height:350px;
+	font-size:20px;
+	line-height: 2.0;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 11px;
+	border-color:#ccc;
+	padding:5px;
+	line-height: 1.6;
+}
+
+
 /* css used in the bug and vulnerability index page  Albus Shin*/
 p.bugvulid {
 	padding-left:20px;
@@ -752,7 +816,7 @@ input[type="checkbox"]:not(:checked):hover + label, input[type="checkbox"]:not(:
 	text-decoration: underline;
 }
 
-input[type="submit"] {
+input#signingo {
 	width: 95px;
 	height: 73px;
 	float: left;
@@ -761,11 +825,13 @@ input[type="submit"] {
 	font-family: Verdana, Arial;
 	font-size: 26px;
 	color: #ffffff;
+	
 }
 
-input[type="submit"]:hover, input[type="submit"]:focus {
+input#signingo[type="submit"]:hover, input#signingo[type="submit"]:focus {
 	background: url(images/go-hover.png) top left no-repeat;
 }
+
 
 .home {
 	width: 70px;
