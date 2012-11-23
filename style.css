@@ -565,7 +565,7 @@ p {
 		#menu ul li span.bg {
 			/* height of the menu items */  
 			height: 60px;
-			background: url('bg_over.gif') center center no-repeat;
+			background: url('images/bg_over.gif') center center no-repeat;
 		}
 		
 		/** 2nd example **/
@@ -601,7 +601,7 @@ p {
 		
 		/* search input field */
 		input[type=search] {
-			background: #ededed url(search-icon.png) no-repeat 9px center;
+			background: #ededed url(images/search-icon.png) no-repeat 9px center;
 			border: solid 1px #ccc;
 			padding: 9px 10px 9px 32px;
 			width: 55px;
