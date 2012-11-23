@@ -10,6 +10,13 @@ body {
 	border: 1px solid #CCC;
 	border-radius:50px;
 }
+#content-license {
+	width: 950px;
+	margin: 50px auto;
+	padding: 20px;
+	background: #FFF;	
+	border: 1px solid #CCC;
+}
 
 a{
 	color:#000;
