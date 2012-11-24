@@ -356,7 +356,8 @@ input#submitbutton{
 	width:160px;
 }
 table.commentssubmittable{
-	margin: auto;
+	padding:20px;
+	margin:auto;
 	font-size:22px;
 	line-height: 2.0;
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -375,7 +376,7 @@ td.commentssubmitvalue{
 textarea#commentssubmittitle{
 	font-family:"微软雅黑", "黑体", "新宋体", "宋体";
 	width:600px;
-	height:40px;;
+	height:40px;
 	font-size:20px;
 	line-height: 2.0;
 	border-width: 1px;
