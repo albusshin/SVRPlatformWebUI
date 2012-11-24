@@ -74,6 +74,25 @@ textarea#description{
 	padding:5px;
 	line-height: 1.6;
 }
+textarea#software, textarea#version, textarea#language{
+	font-family:"微软雅黑", "黑体", "新宋体", "宋体";
+	width:700px;
+	height:40px;
+	font-size:22px;
+	line-height: 2.0;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 11px;
+	border-color:#ccc;
+	padding:5px;
+	line-height: 1.6
+}
+img#uploadscreenshot{
+	display:none;
+	width:700px;
+	margin-left:5px;
+	margin-bottom:10px;
+}
 
 
 /*css used in the user profile page  Albus Shin*/
