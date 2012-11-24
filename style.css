@@ -40,12 +40,14 @@ table.submitbugtable{
 	font-style:italic;
 }
 td.submitbugkey{
+	padding-top:10px;
 	text-shadow: grey 1px 1px 1px;
 	text-align:left;
 	padding-right:30px;
 	vertical-align:top;
 }
 td.submitbugvalue{
+	padding-top:10px;
 }
 textarea#digest{
 	font-family:"微软雅黑", "黑体", "新宋体", "宋体";
@@ -878,3 +880,18 @@ input#signingo[type="submit"]:hover, input#signingo[type="submit"]:focus {
 	color: #ffffff;
 	text-decoration: none;
 }
+
+/* Style used in the submitbug.html select dropdown */
+select{
+	margin-left:100px;
+	border:thin;
+	color:#666;
+	background:transparent;
+	font-size:20px;
+	font-weight:bold;
+	padding:2px 10px;
+	width:350px;
+	border-radius:5px;
+	box-shadow:1px 1px 11px 330033;
+}
+
