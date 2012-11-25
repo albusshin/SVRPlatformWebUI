@@ -896,3 +896,87 @@ select{
 	box-shadow:1px 1px 11px 330033;
 }
 
+/* Style used in home.html */
+
+div#userbar{
+	margin-top:90px;
+	width:800px;
+	height:60px;
+	background-image:url(images/NavigationBar.png);
+	position:absolute;
+	vertical-align:middle;
+	right:-700px;
+}
+img#userbaravatar{
+	width:45px;
+	margin-left:10px;
+	margin-top:5px;
+	border-radius:7px;
+}
+div#username{
+	float:left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	margin-top:12px;
+	margin-left:50px;
+	margin-right:30px;
+	font-weight:400;
+	color:#000;
+	text-shadow: #999 1px 1px 1.5px;
+}
+div#userbarcredit{
+	float:left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	margin-top:12px;
+	margin-left:20px;
+	font-weight:400;
+	color:#fff;
+	text-shadow: #999 1px 1px 1.5px;
+	padding-right:20px;
+}
+img.seperator{
+	float:left;
+	height:58px;
+	margin-left:5px;
+	margin-right:5px;
+}
+img#userbarwatching, img#userbarlogout, img#userbarusericon{
+	float:left;
+	margin-left:20px;
+	width:45px;
+	margin-top:5px;
+}
+div#upbar{
+	width:inherit;
+	height:200px;
+	background:url(images/upbar.png) left top no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
